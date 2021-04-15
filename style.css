@@ -23,6 +23,9 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+#names {
+    color: orange;
+}
 #copyright {
     color: rgb(255, 255, 255);
     margin-top: 220px;
