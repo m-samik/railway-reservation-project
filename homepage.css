@@ -1,14 +1,18 @@
 #l1 {
     color: orange;
+    background-color: red;
     width: 10px;
 }
 #l2 {
+    background-color: red;
     color: orange;
 }
 #l3 {
+    background-color: red;
     color: orange;
 }
 #l4 {
+    background-color: red;
     color: orange;
 }
 li {
