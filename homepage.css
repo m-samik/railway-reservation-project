@@ -6,40 +6,38 @@ body {
     margin: 0;
 }
 ul {
-    background-color: rgb(85, 93, 85);
+    background-color: rgb(125, 129, 125);
+    height: 80px;
 }
 #logo {
+    padding-top: 10px;
     width: 250px;
 }
 #l1 {
-    color: orange;
-    background-color: red;
+    padding-top: 10px;
+    background-color: orange;
     border: solid;
     border-color: black;
-    font-size: 35px;
+    font-size: 25px;
+    margin-left: 202px;
 }
-#l2 {
-    background-color: red;
-    color: orange;
-    font-size: 35px;
-}
-#l3 {
-    background-color: red;
-    color: orange;
-    font-size: 35px;
-}
+#l2,
+#l3,
 #l4 {
-    background-color: red;
-    color: orange;
-    font-size: 35px;
+    border: solid;
+    border-color: black;
+    background-color: orange;
+    font-size: 25px;
+
 }
+
 li {
     padding-top: 10px;
     display: inline;
     margin: 0;
 }
 a {
-    color: white;
+    color: black;
 }
 .slider {
     /*color: red;*/
@@ -57,6 +55,7 @@ div.slider {
 }
 #maintext {
     margin-top: 0;
+    color: orange;
     font-family: Minercraftory;
     font-size: 40px;
     text-align: center;
