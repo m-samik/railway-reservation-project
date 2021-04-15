@@ -63,3 +63,20 @@ div.slider {
     padding-top: 60px;
 
 }
+.headline {
+    text-align: center;
+    font-size: 35px;
+}
+.services {
+    display: inline;
+    background-color: chocolate;
+}
+.b1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+    margin-left: 55px;
+}
