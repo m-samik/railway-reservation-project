@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Minercraftory;
+    src: url('Minercraftory.ttf');
+}
+.maintain {
+    color: orange;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Minercraftory;
+    font-size: 35px;
+
+}
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/WDM-3D_class_Locomotive_of_Indian_Railway.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img {
+    border-radius: 400px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#copyright {
+    color: rgb(255, 255, 255);
+    margin-top: 220px;
+    text-align: center;
+}
+button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
