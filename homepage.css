@@ -1,5 +1,6 @@
 #l1 {
     color: orange;
+    width: 10px;
 }
 #l2 {
     color: orange;
@@ -9,4 +10,7 @@
 }
 #l4 {
     color: orange;
+}
+li {
+    display: inline;
 }
