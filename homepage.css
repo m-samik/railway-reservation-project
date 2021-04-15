@@ -12,6 +12,7 @@ ul {
 #logo {
     padding-top: 10px;
     width: 250px;
+    margin-right: 202px;
 }
 #l1 {
     padding-top: 10px;
@@ -19,7 +20,7 @@ ul {
     border: solid;
     border-color: black;
     font-size: 25px;
-    margin-left: 202px;
+
 }
 #l2,
 #l3,
