@@ -23,7 +23,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-#names {
+.names {
     color: orange;
 }
 #copyright {
