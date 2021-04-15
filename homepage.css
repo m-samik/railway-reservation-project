@@ -1,23 +1,65 @@
+@font-face {
+    font-family: Minercraftory;
+    src: url('Minercraftory.ttf');
+}
+body {
+    margin: 0;
+}
+ul {
+    background-color: rgb(85, 93, 85);
+}
+#logo {
+    width: 250px;
+}
 #l1 {
     color: orange;
     background-color: red;
-    width: 10px;
+    border: solid;
+    border-color: black;
+    font-size: 35px;
 }
 #l2 {
     background-color: red;
     color: orange;
+    font-size: 35px;
 }
 #l3 {
     background-color: red;
     color: orange;
+    font-size: 35px;
 }
 #l4 {
     background-color: red;
     color: orange;
+    font-size: 35px;
 }
 li {
+    padding-top: 10px;
     display: inline;
+    margin: 0;
 }
 a {
     color: white;
+}
+.slider {
+    /*color: red;*/
+    height: 500px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/WDM-3D_class_Locomotive_of_Indian_Railway.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+ul,
+div.slider {
+    margin: 0;
+}
+#maintext {
+    margin-top: 0;
+    font-family: Minercraftory;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+
 }
