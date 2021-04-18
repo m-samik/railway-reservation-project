@@ -28,7 +28,7 @@ ul {
     border: solid;
     border-color: black;
     background-color: orange;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -78,5 +78,5 @@ div.slider {
     padding: 5px;
     border: 1px solid blue;
     background-color: yellow;
-    margin-left: 55px;
+    margin: auto;
 }
