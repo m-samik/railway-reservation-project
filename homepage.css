@@ -87,3 +87,8 @@ div.slider {
 .skip{
 	border: solid;
 	width : 700px}
+	
+#cap{
+	color:black;
+	font-size: 25px;
+	font-family : Minercraftory;}
