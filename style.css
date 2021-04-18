@@ -32,7 +32,7 @@ img {
     text-align: center;
 }
 button {
-    background-color: orange;
+    background-color: #252F3E;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -44,4 +44,5 @@ button {
 }
 a {
     text-decoration: none;
+    color: white
 }
