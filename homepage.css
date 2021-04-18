@@ -80,3 +80,15 @@ div.slider {
     background-color: yellow;
     margin: auto;
 }
+.rform{
+	margin-left: 20px;
+	padding: 30px;}
+	
+.skip{
+	border: solid;
+	width : 700px}
+	
+#cap{
+	color:black;
+	font-size: 25px;
+	font-family : Minercraftory;}

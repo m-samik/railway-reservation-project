@@ -3,12 +3,13 @@
         <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" 
-              href="homepage.css">
+            href="homepage.css">
+        
     </head>
     <ul>
         <li><img id="logo" src="railslogo.png"></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li id="l1">
-        <a href="#">HOME</a>
+        <a href="form.html">HOME</a>
     </li>&nbsp;&nbsp;
     <li id ="l2">
         <a href="aboutus.html">ABOUT US</a>
@@ -18,8 +19,66 @@
     </li>&nbsp;&nbsp;
     <li id="l4">
         <a href="#">LOGIN</a>
-    </li></ul><!-- -->
-    <div class="slider"><h1 id="maintext">Welcome To Our Website</h1></div>
+    </li>
+    <li id="l5">
+        <a href="#skip">Skip to Main</a>
+    </li>
+    </ul><!-- -->
+    <div class="slider">
+    <!--h1 id="maintext">Welcome To Our Website</h1></div>--> 		
+    <div class="rform">
+   <form action = "congrats.html">
+       <table border="3px" height="430px" width="30%">
+<caption id="cap">Book Ticket</caption>
+
+<tr bgcolor="white">
+   <th colspan="2">
+   <button>PNR STATUS</button></th>
+</tr>
+
+<tr bgcolor="black">
+  <td><input type= "text" placeholder="From"></input></td>
+  <td><input type= "text" placeholder="To"></input></td>
+</tr>
+
+<tr bgcolor="violet">
+  <td><input type = "date"></input></td>
+  <td><select>
+ 	<option>--All Classes--</option>
+	<option>Exec. Chair Car(EC)</option>
+	<option>AC 2 Tier (2A)</option>
+	<option>First Class(FC)</option>
+	<option>AC 3 Tier (3A)</option>
+	<option>AC 3 Economy(3E)</option>
+	<option>AC Chair car (CC)</option>
+	<option>Sleeper (SL)</option>
+	<option>Second Sitting (2S)</option></td>
+</tr>
+
+<tr bgcolor="grey">
+<th colspan="2" <td><select>
+ 	<option>--Category--</option>
+	<option>GENERAL</option>
+	<option>LADIES</option>
+	<option>LOWER BERTH/SR.CITIZEN</option>
+	<option>DIVYANG</option>
+	<option>TATKAL</option>
+	<option>PREMIUM TATKAL</option></td>
+</tr>
+
+<tr bgcolor="yellow">
+   <th colspan="2">
+   <br><input type="checkbox" value="Flexible With Date">
+   Flexible With Date</br>
+   <button>Search</button>
+   <button>Reset</button></th>
+</tr>
+
+</table>
+</form>    
+
+    </div>
+    
     <div class="headline">Have you not found the right one?
         <br>Find a service suitable for you here.</div>
     <div>
@@ -30,5 +89,8 @@
         <span class="b1">Train</span>
     </div>
 
+
+<div id="skip">
+<img src ="https://i.pinimg.com/originals/c9/9a/a2/c99aa2d5dbf746111f0792fcc381f7a1.jpg"></div>
         </html>
 
