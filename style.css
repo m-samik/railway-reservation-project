@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Minercraftory;
-    src: url('Minercraftory.ttf');
+    font-family: Eighty-Eight;
+    src: url('Eighty-Eight.ttf');
 }
 .maintain {
     color: orange;
@@ -40,4 +40,5 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    text-decoration: none;
 }
