@@ -1,94 +1,84 @@
-@font-face {
-    font-family: Minercraftory;
-    src: url('Minercraftory.ttf');
-}
-body {
+* {
     margin: 0;
 }
+.topheader {
+    background-color: #252F3E;
+    color: white
+}
+.icon {
+    background-color: red;
+    color: white;
+    width: 120px;
+}
+.anim {
+    color: white;
+    width: 1150px;
+}
+
 ul {
-    background-color: rgb(125, 129, 125);
-    height: 80px;
+    background-color: rgb(215, 221, 215);
+    margin-top: 10px;
+    height: 38px;
+    align-items: flex-end;
 }
 #logo {
     padding-top: 10px;
     width: 250px;
-    margin-right: 202px;
 }
-#l1 {
-    padding-top: 10px;
-    background-color: orange;
-    border: solid;
-    border-color: black;
-    font-size: 25px;
+header ul li a.l1,
+header ul li a:hover {
+    background: #252F3E;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+}
 
-}
-#l2,
-#l3,
-#l4 {
-    border: solid;
-    border-color: black;
-    background-color: orange;
-    font-size: 20px;
-
-}
 
 li {
-    padding-top: 10px;
+    align-items: flex-end;
+    padding: 10px;
     display: inline;
-    margin: 0;
 }
-a {
-    color: black;
+header ul li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 1px;
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    user-select: none;
 }
 .slider {
     /*color: red;*/
     height: 500px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/WDM-3D_class_Locomotive_of_Indian_Railway.jpg");
+    background-image: url("https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-1592207921.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
 }
-ul,
-div.slider {
-    margin: 0;
+.login {
+    margin-right: 600px;
 }
-#maintext {
-    margin-top: 0;
-    color: orange;
-    font-family: Minercraftory;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 60px;
-
+#in1 {
+    width: 90px;
 }
-.headline {
-    text-align: center;
-    font-size: 35px;
+.loginb {
+    background-color: orange;
+    padding: 8px;
+    border-radius: 30px;
 }
-.services {
-    display: inline;
-    background-color: chocolate;
+.loginb a {
+    text-decoration: none;
+    color: white;
 }
-.b1 {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: 1px solid blue;
-    background-color: yellow;
-    margin: auto;
+.skip {
+    background-color: orange;
+    border-radius: 25px;
 }
-.rform{
-	margin-left: 20px;
-	padding: 30px;}
-	
-.skip{
-	border: solid;
-	width : 700px}
-	
-#cap{
-	color:black;
-	font-size: 25px;
-	font-family : Minercraftory;}
+#book {
+    background-color: #FF9200;
+}

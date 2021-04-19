@@ -1,0 +1,17 @@
+form {
+    width: 400px;
+    margin-left: 900px;
+    /* margin: 100px auto 0;*/
+    background-color: rgba(100, 100, 100, 0.5);
+}
+label {
+    color: white;
+    font-family: Arial;
+}
+#p1 {
+    color: red;
+    background-color: yellow;
+}
+#findtrain {
+    margin-right: 40px;
+}
