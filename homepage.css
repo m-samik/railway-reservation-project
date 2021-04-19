@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito+Sans:wght@200&display=swap');
 * {
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
 .topheader {
     background-color: #252F3E;
     color: white
@@ -9,10 +13,12 @@
     background-color: red;
     color: white;
     width: 120px;
+    font-size: 13px;
 }
 .anim {
     color: white;
-    width: 1150px;
+    width: 1125px;
+    font-size: 13px;
 }
 
 ul {
@@ -20,6 +26,7 @@ ul {
     margin-top: 10px;
     height: 38px;
     align-items: flex-end;
+    font-family: 'Nunito Sans', sans-serif;
 }
 #logo {
     padding-top: 10px;
@@ -53,7 +60,7 @@ header ul li a {
 .slider {
     /*color: red;*/
     height: 500px;
-    background-image: url("https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-1592207921.jpg");
+    background-image: url("https://cms.qz.com/wp-content/uploads/2018/09/indian-railways-history.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,8 +84,17 @@ header ul li a {
 }
 .skip {
     background-color: orange;
-    border-radius: 25px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+
 }
 #book {
     background-color: #FF9200;
+    font-family: 'Noto Serif', serif;
+}
+
+.f1 {
+    border: solid;
+    background-color: red;
 }
