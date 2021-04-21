@@ -120,6 +120,7 @@ header ul li a {
 .pgheading {
     padding: 2px;
     font-size: 20px;
+    font-weight: 900;
 }
 .pgtext {
     padding: 2px;
@@ -137,4 +138,19 @@ header ul li a {
 .buttonpg a {
     text-decoration: none;
     color: #ffffff;
+}
+.roundediconstext {
+    font-size: 35px;
+}
+.roundedicons {
+    display: inline-block;
+    border: solid;
+    border-color: #252F3E;
+    border-radius: 80px;
+    padding: 20px;
+    margin-left: 15px;
+}
+.roundedicons img {
+    width: 130px;
+    height: 130px;
 }
