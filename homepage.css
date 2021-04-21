@@ -179,3 +179,13 @@ p {
     margin-left: 400px;
     text-decoration: none;
 }
+#social {
+    background-color: orange;
+    height: 100px;
+}
+#foot1 {
+    display: inline-block;
+}
+.sbox {
+    display: inline-block;
+}
