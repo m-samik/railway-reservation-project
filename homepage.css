@@ -182,10 +182,42 @@ p {
 #social {
     background-color: orange;
     height: 100px;
+    padding: 10px;
+
 }
 #foot1 {
     display: inline-block;
+    border: solid;
+    height: 200px;
+    width: 436px;
+    margin-left: 5px;
+    vertical-align: top;
+
 }
 .sbox {
     display: inline-block;
+    vertical-align: top;
+
+}
+.sboxtext {
+    font-size: 35px;
+    font-style: italic;
+    color: #ffffff;
+    margin-right: 25px;
+}
+.sboxtext h1 {
+    font-family: Arthure;
+}
+.footermain {
+    height: 210px;
+    background-color: #D7DDD7;
+}
+.box1 {
+    color: rgb(2, 2, 2);
+    top: 100%;
+
+}
+.box2 {
+    top: 100%;
+    margin-top: 0;
 }
