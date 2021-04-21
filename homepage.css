@@ -89,6 +89,10 @@ header ul li a {
     font-size: 13px;
 
 }
+.skip a {
+    color: white;
+    text-decoration: none;
+}
 #book {
     background-color: #FF9200;
     font-family: 'Noto Serif', serif;
@@ -97,4 +101,40 @@ header ul li a {
 .f1 {
     border: solid;
     background-color: red;
+}
+#boxes {
+    font-size: 35px;
+}
+.blogcl {
+    color: orange;
+    font-weight: 700;
+}
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    width: 25%;
+    height: 100px;
+    margin-left: 80px;
+}
+.pgheading {
+    padding: 2px;
+    font-size: 20px;
+}
+.pgtext {
+    padding: 2px;
+    font-size: 14px;
+    text-align: justify;
+}
+.buttonpg {
+    font-size: 15px;
+    background-color: orange;
+    border-radius: 25px;
+    padding: 5px;
+    color: #ffffff;
+    margin-left: 245px;
+}
+.buttonpg a {
+    text-decoration: none;
+    color: #ffffff;
 }
