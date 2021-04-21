@@ -142,15 +142,21 @@ header ul li a {
 .roundediconstext {
     font-size: 35px;
 }
-.roundedicons {
+.iconshead {
     display: inline-block;
+}
+.roundedicons {
+    margin-left: 10px;
+    border-radius: 90px;
     border: solid;
     border-color: #252F3E;
-    border-radius: 80px;
-    padding: 20px;
-    margin-left: 15px;
 }
 .roundedicons img {
     width: 130px;
     height: 130px;
+    padding: 25px;
+}
+.iconstext {
+    font-size: 20px;
+    font: optional;
 }
