@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .topheader {
@@ -60,7 +61,7 @@ header ul li a {
 .slider {
     /*color: red;*/
     height: 500px;
-    background-image: url("https://cms.qz.com/wp-content/uploads/2018/09/indian-railways-history.jpg");
+    background-image: url("https://st.indiarailinfo.com/kjfdsuiemjvcya22/0/6/7/3/4053673/0/20180707113903img62920101018727913.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,13 +96,12 @@ header ul li a {
 }
 #book {
     background-color: #FF9200;
-    font-family: 'Noto Serif', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-top: 0;
 }
 
-.f1 {
-    border: solid;
-    background-color: red;
-}
+
 #boxes {
     font-size: 35px;
 }
@@ -158,5 +158,94 @@ header ul li a {
 }
 .iconstext {
     font-size: 20px;
-    font: optional;
+
+}
+.mybookform {
+    margin-left: -850px;
+}
+.mybookform label {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mybookform select {
+    font-size: 15px;
+}
+.mybookform input,
+p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.mybookform button a {
+    margin-left: 400px;
+    text-decoration: none;
+}
+#social {
+    background-color: orange;
+    height: 100px;
+    padding: 10px;
+
+}
+#foot1 {
+    display: inline-block;
+    height: 200px;
+    width: 436px;
+    margin-left: 5px;
+    vertical-align: top;
+
+}
+.sbox {
+    display: inline-block;
+    vertical-align: top;
+
+}
+.sboxtext {
+    font-size: 35px;
+    font-style: italic;
+    color: #ffffff;
+    margin-right: 25px;
+}
+.sboxtext h1 {
+    font-family: Arthure;
+}
+.footermain {
+    height: 210px;
+    background-color: #D7DDD7;
+}
+.box1 {
+    color: rgb(2, 2, 2);
+    font-size: 25px;
+}
+.box1 a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box2 {
+    font-size: 25px;
+}
+.box3 {
+    margin-left: 130px;
+}
+#footercenter {
+    text-align: center;
+    color: orange;
+}
+#git {
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: -1px;
+
+}
+#git a {
+    text-decoration: none;
+    color: orange;
+}
+.footerend {
+    background-color: #252F3E;
+}
+.btp {
+    margin-left: 350px;
+    margin-top: 40px;
 }
