@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .topheader {
@@ -187,7 +188,6 @@ p {
 }
 #foot1 {
     display: inline-block;
-    border: solid;
     height: 200px;
     width: 436px;
     margin-left: 5px;
@@ -214,10 +214,34 @@ p {
 }
 .box1 {
     color: rgb(2, 2, 2);
-    top: 100%;
-
+    font-size: 25px;
+}
+.box1 a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
 }
 .box2 {
-    top: 100%;
-    margin-top: 0;
+    font-size: 25px;
+}
+.box3 {
+    margin-left: 130px;
+}
+#footercenter {
+    text-align: center;
+    color: orange;
+}
+#git {
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: -1px;
+
+}
+#git a {
+    text-decoration: none;
+    color: orange;
+}
+.footerend {
+    background-color: #252F3E;
 }
