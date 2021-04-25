@@ -30,13 +30,12 @@ form {
 .Form-left h4 {
     padding: 0;
     margin: 0;
-    color: rgb(5, 2, 2));
+    color: rgb(5, 2, 2);
 }
 .line {
     border-bottom: 2px solid rgb(12, 168, 207);
     width: 40%;
     margin-left: 0;
-    <br>
 }
 .Form-leftspan {
     color: rgb(5, 2, 2);
@@ -48,8 +47,4 @@ form {
     border: 1px solid rgb(53, 52, 52);
 }
 
-    /* margin: 100px auto 0;
-    background-color: rgba(10, 10, 10, 0.5);
-    height: 400px;*/
-}
 
