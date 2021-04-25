@@ -5,13 +5,13 @@ form {
     height: 400px;
 }
 #fancy-form {
-    background-color: rgb(255, 244, 244);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 #fancy-form .container {
-    width: 70%;
+    width: 700px;
     margin-left: 5%;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@ form {
     color: rgb(5, 2, 2);
 }
 .line {
-    border-bottom: 2px solid rgb(12, 168, 207);
+    border-bottom: 2px solid orange;
     width: 40%;
     margin-left: 0;
 }
@@ -42,9 +42,18 @@ form {
     font-weight: bold;
 }
 .Form-left hr {
-    width: 25rem;
+    width: 25px;
     margin-left: 0;
     border: 1px solid rgb(53, 52, 52);
 }
 
-
+.fchild{
+    display: inline-block;
+    vertical-align: top;
+}
+.fchild img{
+    height: 500px;
+}
+.fhead{
+    border: ridge orange;
+}

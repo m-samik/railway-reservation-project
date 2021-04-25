@@ -26,7 +26,7 @@
                     <li>
                         Username : <input id="in1" type="name" required>
                         Password : <input id="in1" type="password"  required>
-                        <span class="loginb"><a href="congrats.html"> LOGIN </a></span>
+                        <span class="loginb"><a href="#" onclick="mylogin()"> LOGIN </a></span>
                     <li>
 
                     
@@ -74,22 +74,23 @@
 
 
 <div class="card">
-<div class="team1">
-  <img  src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"width="200px" height="200">
-    <h4><b>Priyanshu bhatt</b></h4>
-    <p><cite> Founder <br>student at Lovely Professional University<cite></p></div>
-
-<div class="team1">
-  <img  src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"  width="200" height="200">
-    <h4><b>Ujjawal Bharadwaj</b></h4>
-    <p><cite> Founder <br>student at Lovely Professional University<cite></p></div>
-  
-
-<div  class="team1">
-  <img src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg" width="200" height="200">
-    <h4><b>Mohammed Sami Khanday</b></h4>
-   <p><cite>Founder<br>student at Lovely Professional University<cite></p></div>
-</div>
+    <div id="item1" class="team1">
+      <img  src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"width="200px" height="200">
+        <h4><b>Priyanshu bhatt</b></h4>
+        <p><cite> Founder <br>student at Lovely Professional University<cite></p></div>
+    
+    <div id="item2" class="team1">
+      <img  src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"  width="200" height="200">
+        <h4><b>Ujjawal Bharadwaj</b></h4>
+        <p><cite> Founder <br>student at Lovely Professional University<cite></p></div>
+      
+    
+    <div id="item3" class="team1">
+      <img src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg" width="200" height="200">
+        <h4><b>Mohammed Sami Khanday</b></h4>
+       <p><cite>Founder<br>student at Lovely Professional University<cite></p></div>
+    </div>
+    
 
 
 <div id="last" ><h2>QUESTION ASKED FREQUENTLY</h2>
@@ -175,6 +176,7 @@ form{
 background-color:rgba(100,100,100,0.8);
 border:ridge;
 width:400px;
+height: 230px;
 margin:50px  auto 120px  10px}
 
 
@@ -197,21 +199,30 @@ color:white;}
 
 .card{
 display:grid;
-margin-top:10px;
+margin-top:110px;
 justify-content:space-evenly;
 grid-template-columns:auto auto auto;
 overflow:fixed;
 align-content:space-evenly;
-background-color:rgba(100,100,100,0.8);
-border:double black;
-margin-left: 520px;}
+margin-left: 520px;
+}
 
-.team1{
+#item1{
+background-color:orange;
+width:350px;
+height:300;
+margin-right: 100px;
+}
+#item2{
+background-color:orange;
+width:350px;
+height:300;
+margin-right: 100px;}
+#item3{
 background-color:orange;
 width:350px;
 height:300;
 }
-
 
  #i1{
 border-radius:50%;
@@ -237,7 +248,7 @@ margin-right:auto;
 .vid
 {
 margin-left:550px;
-margin-top:-525px;
+margin-top:-390px;
 }
 
 h5{
