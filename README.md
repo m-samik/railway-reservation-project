@@ -9,13 +9,22 @@ Website Contents :
 3. Contact Us.
 4. Booking.
 5. Login.
-
+HOME : 
+---------------
 ![](/gitimages/home.png)
 
+HOME CENTER : 
+---------------
 ![](/gitimages/home1.png)
 
+ABOUT US : 
+---------------
 ![](/gitimages/aboutus.png)
 
+CONTACT US : 
+---------------
 ![](/gitimages/contactus.png)
 
+FOOTER : 
+---------------
 ![](/gitimages/footer.png)
