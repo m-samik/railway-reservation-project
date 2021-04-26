@@ -1,5 +1,5 @@
 # Railway Reservation Website ⚡⚡
-Website Project which will purely on HTML and CSS
+Website Project which will purely on HTML, CSS ans JS
 
 The Website is LIVE on http://rails-in.tk/
 
