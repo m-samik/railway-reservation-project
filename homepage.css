@@ -99,6 +99,9 @@ header ul li a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     margin-top: 0;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 
@@ -165,7 +168,7 @@ header ul li a {
 }
 .mybookform label {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .mybookform select {
@@ -177,8 +180,9 @@ p {
     color: rgb(0, 0, 0);
 }
 .mybookform button a {
-    margin-left: 400px;
+    margin-left: 0px;
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 #social {
     background-color: orange;
@@ -217,7 +221,7 @@ p {
     font-size: 25px;
 }
 .box1 a {
-    color: red;
+    color: #252F3E;
     text-decoration: none;
     font-size: 18px;
 }
@@ -244,8 +248,18 @@ p {
 }
 .footerend {
     background-color: #252F3E;
+    margin-bottom: 0;
 }
 .btp {
     margin-left: 350px;
     margin-top: 40px;
+}
+#ab{
+    color: white;
+}
+#ba{
+    width: 400px;
+}
+#findtrain{
+    margin-left: 390px;
 }
