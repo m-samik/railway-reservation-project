@@ -169,7 +169,7 @@ header ul li a {
 .mybookform label {
     color: #ffffff;
     font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .mybookform select {
     font-size: 15px;
@@ -180,7 +180,7 @@ p {
     color: rgb(0, 0, 0);
 }
 .mybookform button a {
-    margin-left: 0px;
+    margin-left: 0;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
@@ -254,12 +254,12 @@ p {
     margin-left: 350px;
     margin-top: 40px;
 }
-#ab{
+#ab {
     color: white;
 }
-#ba{
+#ba {
     width: 400px;
 }
-#findtrain{
+#findtrain {
     margin-left: 390px;
 }
